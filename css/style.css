@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,
+p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-family: sans-serif;
+}
+
+body {
+    background: url('../img/fundo.jpg') repeat-x;
+}
+
+#topbar {
+	background-color: #EBECF6;
+    height: 120px;
+    border-bottom:2px solid #7e80a9;
+    color: #fff;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* #logo img {
+-webkit-filter: invert(100%);
+   -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+     -o-filter: invert(100%);
+filter: invert(100%);
+}*/
+
+
+ul#menu-user {
+	margin-top:30px;
+    list-style: none;
+    margin-left:245px;
+}
+
+ul#menu-user li {
+    float:left;
+    margin-right:20px;
+}
+
+#profile {
+    background: url('../img/profile.png') no-repeat;
+    background-position: center center;
+    background-size:50px 50px;
+}
+
+#profile:hover {
+    background: url('../img/profileS.png') no-repeat;
+    background-position: center center;
+    background-size:50px 50px;
+}
+
+#config {
+    background: url('../img/config.png') no-repeat;
+    background-position: center center;
+    background-size:50px 50px;
+}
+
+#config:hover {
+    background: url('../img/configS.png') no-repeat;
+    background-position: center center;
+    background-size:50px 50px;
+}
+
+#logout {
+    background: url('../img/logout.png') no-repeat;
+    background-position: center center;
+    background-size:50px 50px;
+}
+
+#logout:hover {
+    background: url('../img/logoutS.png') no-repeat;
+    background-position: center center;
+    background-size:50px 50px;
+}
+
+#topbar ul a{
+	display:block;
+	border:solid 2px #4d68a1;
+	padding:5px;
+	padding-bottom:3px;
+	width:60px;
+	height:60px;
+    transition:all ease-in 180ms;
+}
+
+#topbar ul a:hover {
+	background-color:#4B67A1;
+	display:block;
+	padding:5px;
+	padding-bottom:3px;
+}
+
+.conteudo-meio {
+    width:1080px;
+    margin:0 auto;
+}
+
+}
+
+.direita {
+    float:right;
+}
+
+.esquerda {
+    float:left;
+}
