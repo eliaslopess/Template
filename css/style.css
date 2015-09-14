@@ -11,6 +11,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 	font-size: 100%;
 	font-family: sans-serif;
+	list-style:none;
 }
 
 body {
@@ -18,13 +19,14 @@ body {
 }
 
 #topbar {
-	background-color: #EBECF6;
+	/*background-color: #EBECF9;*/
     height: 120px;
     border-bottom:2px solid #7e80a9;
     color: #fff;
     margin-top: 15px;
     padding-top: 10px;
     padding-left: 10px;
+	margin-bottom: 15px;
 }
 
 /* #logo img {
@@ -98,6 +100,31 @@ ul#menu-user li {
 	display:block;
 	padding:5px;
 	padding-bottom:3px;
+}
+
+#container {
+	background-color:#fff;
+ }
+ 
+#sidemenu {
+	margin-right:10px;
+	width:20%;
+	text-decoration:none;
+}
+
+#sidemenu ul a{
+	text-decoration:none;
+	display:block;
+	color:#fff;
+}
+
+#sidemenu ul {
+	padding-left:none;
+}
+
+#centro {
+	width:79%;
+	text-align:center;
 }
 
 .conteudo-meio {
