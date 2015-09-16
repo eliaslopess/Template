@@ -1,4 +1,4 @@
-var numeroCampos = 14; <!-- INSIRA O NÚMERO DE CAMPOS -->
+var numeroCampos = 1; <!-- INSIRA O NÚMERO DE CAMPOS -->
 
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
@@ -21,24 +21,11 @@ var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d
 
 //MÁSCARAS setMask(idDoCampo, formatacaoDaMascara
 
+setMask("cnpjJ","##.###.###/####-##");
 
 //ValidaTipo(idDoCampo, regexTIPO, numeroDoCampo)
-/* Exemplos:
-	validaChar("nomeJ", regexLETRAS, 0);
-	validaChar("sobrenomeJ", regexLETRAS, 1);
-	validaCPF("cpfJ", regexCPF, 2);
-	validaChar("telJ", regexTEL, 3);
-	validaChar("cepJ", regexCEP, 4);
-	validaChar("kmJ", regexNUMEROS, 5);
-	validaChar("estadoJ", regexLETRAS, 6);
-	validaChar("cidadeJ", regexLETRAS, 7);
-	validaEmail("emailJ", regexEMAIL, 8);
-	validarCNPJ("cnpjJ", regexCNPJ, 9);
-	validaHora("horaJ", regexHORA, 10);
-	validaChar("placaJ", regexPLACA, 11);
-	validaChar("dataJ", regexDATA, 12);
-	validaChar("paisJ", regexNUMEROS, 13);*/
 
+validarCNPJ("cnpjJ", regexCNPJ, 0);
 
 	<!-- EDITE DAQUI PARA CIMA-->
 	
