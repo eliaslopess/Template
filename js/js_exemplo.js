@@ -6,6 +6,7 @@ for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
 window.onload = function () {
 
 	<!-- EDITE DAQUI PARA BAIXO -->
+	
 var topo = _$("caixa");
 var regexLETRAS = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/;
 var regexCEP = /^\d+\.\d+\-\d+$/;
@@ -46,17 +47,6 @@ validaChar("dataJ", regexDATA, 12);
 validaChar("paisJ", regexNUMEROS, 13);
 
 	<!-- EDITE DAQUI PARA CIMA-->
-
-	topo.style.display = 'none';  // esta linha faz o menu superior direito "esconder" por padrão
-
-	_$('botao-topo').onclick = function () {        //ao clicar abre o dropwdown superior direito
-		topo.style.display = topo.style.display === 'none' ? '' : 'none';
-	}
-
-	_$('centro').onclick = function () { //ao clicar na div do centro esconde o menu
-		topo.style.display = topo.style.display === '' ? 'none' : 'none';
-
-	}
 	
 }
 
