@@ -14,19 +14,31 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	list-style:none;
 }
 
+html, body {
+	/*height: 100%;*/
+	}
+
 body {
     background: url('../img/fundo.jpg') repeat-x;
+	margin: 0px;
+	padding: 0px;
 }
+
+.full {
+	height: 100%;
+	}
 
 #topbar {
     height: 120px;
     border-bottom:2px solid #2C4381;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 0px;
     padding-top: 10px;
     padding-left: 10px;
 	margin-bottom: 15px;
     border-radius: 3px;
+	background-color: rgb( 77, 104, 161);
+	width: 99.2%;
 }
 
 /*#logo img {
@@ -41,7 +53,7 @@ filter: invert(100%);
 ul#menu-user {
 	margin-top:30px;
     list-style: none;
-    margin-left:500px;
+    float: right;
 }
 
 ul#menu-user li {
@@ -93,6 +105,7 @@ ul#menu-user li {
 	width:60px;
 	height:60px;
     transition:all ease-in 180ms;
+	background-color: rgba(255, 255, 255, 0.35);
 }
 
 #topbar ul a:hover {
@@ -100,10 +113,12 @@ ul#menu-user li {
 	display:block;
 	padding:5px;
 	padding-bottom:3px;
+	border-color: rgba(255, 255, 255, 0.35);
 }
 
 #container {
-	background-color:#fff;
+	/*background-color:#fff;*/
+	/*height: 100%;*/
  }
  
 #sidemenu {
@@ -186,4 +201,94 @@ ul#menu-user li {
 
 .navigator li:hover{
     background-color: #E8E4E1;
+}
+
+/* O CSS ABAIXO AFETA OS FORMULÁRIOS NAS PÁGINAS DE CADASTRO/ALTERAÇÃO E ETC.*/
+
+.formulario input[type="text"]{
+    font-family: sans-serif;
+    padding: 3px 5px;
+    border: 1px solid #a9a9a9;
+    font-size: 12pt;    
+}
+
+.formulario select{
+    font-family: sans-serif;
+    padding: 3px 5px;
+    border: 1px solid #a9a9a9;
+    font-size: 12pt;
+    width: 81px;
+}
+
+    
+.formulario span {
+    color: #be0000;
+    background-color: #ff9e9e;
+    border: dashed 1px #be0000;
+    padding: 3px 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    display:none;
+    width: 125px;
+}
+
+.formulario .subfds {
+    width: 177px;
+}
+
+.formulario fieldset{
+    width:349px
+}
+
+.formulario .subfds legend {
+    font-size:12pt;
+}
+
+.formulario legend {
+    padding:5px;
+    font-size:14pt;
+}
+
+.formulario label {
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+.botaoJ {
+    font-size:15pt;
+    margin-left:10px;
+    border:solid 2px #4d68a1;
+    padding:10px 25px;
+    color:#4d68a1;
+    background-color:#fff;
+    transition:all ease-in 180ms;
+}
+
+.botaoJ:hover {
+    color:#fff;
+    background-color: #4d68a1;
+}
+
+.campo {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.coluna-direita{
+    float:right;
+    width:45%;
+    
+}
+
+.coluna-esquerda{
+    float:left;
+    width:45%;
+    
+}
+
+.tabela{
+    display:table;
+    width:850px;
+    margin-bottom:30px;
+    text-align: left;
 }
